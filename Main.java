@@ -19,7 +19,7 @@ public class Main {
      */
     Product p = new Product("Чипсы", 60.0);
     System.out.printf("%s,%.2f\n", p.getName(), p.getPrice());
-    p.setPrice(100.0);
+    p.setPrice(-100.0);
     System.out.printf("%s, %.2f", p.getName(), p.getPrice() );
   }
 }

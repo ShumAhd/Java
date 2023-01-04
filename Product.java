@@ -31,6 +31,8 @@ https://javarush.com/groups/posts/1928-getterih-i-setterih
   public void setPrice(Double value) {
     if (value > 0) {
       this.price = value;
+    } else {
+      System.out.println("Цена не может быть меньше нуля");
     }
   }
 }
