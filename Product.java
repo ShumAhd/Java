@@ -36,3 +36,6 @@ https://javarush.com/groups/posts/1928-getterih-i-setterih
     }
   }
 }
+/*
+Для авто написания кода можно испльзоват рефакторинг
+ */
